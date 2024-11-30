@@ -103,7 +103,7 @@ function IndexPage() {
 		<div className="relative">
 			<Navbar />
 			<main className="flex flex-col items-center justify-center min-h-screen gap-6">
-				<h1 className="text-4xl font-bold">Pro Plan</h1>
+				<h1 className="text-4xl font-bold">Enterprise Plan</h1>
 
 				<Card className="md:max-w-[400px] max-h-[500px] w-full">
 					<CardHeader>

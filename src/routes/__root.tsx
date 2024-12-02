@@ -1,5 +1,3 @@
-import type { QueryClient } from "@tanstack/react-query";
-
 import {
 	createRootRouteWithContext,
 	Outlet,
@@ -11,9 +9,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 // UI Provider
 import { Toaster } from "@/components/ui/toaster";
 
-export const Route = createRootRouteWithContext<{
-	queryClient: QueryClient;
-}>()({
+export const Route = createRootRouteWithContext()({
 	component: Root,
 });
 

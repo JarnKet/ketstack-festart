@@ -21,7 +21,7 @@ import { useToast } from "@/hooks/use-toast";
 import { Lightbulb } from "lucide-react";
 
 // Constants
-import { AUTH_KEY } from "@/constants";
+import { AUTH_KEY } from "@/constants/index";
 
 export const Route = createFileRoute("/login")({
 	component: LoginPage,
@@ -44,8 +44,6 @@ function LoginPage() {
 		toast({
 			description: "Login successful",
 		});
-
-		navigate({ to: "/dashboard" });
 	};
 
 	return (

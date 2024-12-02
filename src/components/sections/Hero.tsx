@@ -50,6 +50,25 @@ const Hero = () => {
 									</div>
 								</a>
 							))}
+							<a
+								href={"https://tanstack.com/router/latest"}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<div
+									className={cn(
+										// buttonVariants({ variant: "outline" }),
+										"group px-3",
+										"dark:bg-transparent bg-white shadow rounded-lg p-2",
+									)}
+								>
+									<img
+										src="https://tanstack.com/_build/assets/logo-color-600w-Er4SOkq1.png"
+										alt="tanstack router"
+										className="w-[32px] h-[32px] saturate-0 group-hover:saturate-100 transition-all ease-in-out duration-200"
+									/>
+								</div>
+							</a>
 						</div>
 						<div className="flex flex-col justify-center w-full gap-2 my-4 sm:flex-row lg:justify-start">
 							<a

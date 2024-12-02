@@ -38,7 +38,17 @@ function PostList() {
 
 	return (
 		<div className="space-y-10">
-			<h2>Post List</h2>
+			<div>
+				<h2 className="font-bold ">
+					This page is private route, if user is not authenticated with your
+					logic they can't access here.
+				</h2>
+
+				<p className="text-muted-foreground">
+					You can check and implement your own logic to check user authenticate
+					in _private.tsx file
+				</p>
+			</div>
 
 			{isLoading ? (
 				<Card>

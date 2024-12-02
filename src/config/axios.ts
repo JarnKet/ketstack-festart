@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = import.meta.env.VITE_BASE_API;
+const API = "https://jsonplaceholder.typicode.com";
 
 // Replace with your own access and refresh tokens
 const ACCESS_TOKEN_KEY = "access_token";

@@ -102,7 +102,12 @@ function LoginPage() {
 					</CardFooter>
 				</Card>
 			</section>
-			<section className="items-center justify-center flex-1 hidden h-full md:flex md:w-1/2 bg-primary ">
+			<section className="flex-col items-center justify-center flex-1 hidden h-full md:flex md:w-1/2 bg-primary">
+				<img
+					src="/logo.png"
+					className="w-24 h-24 invert dark:invert-0"
+					alt="logo"
+				/>
 				<h2 className="text-4xl font-bold text-white">
 					Welcome to Ketstack/FEStart
 				</h2>
